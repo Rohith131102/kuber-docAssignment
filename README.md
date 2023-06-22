@@ -2,7 +2,8 @@
 
 ## Question
 
-<img width="554" alt="Screenshot 2023-06-22 at 3 19 12 PM" src="https://github.com/Rohith131102/kuber-docAssignment/assets/123619674/2f2ec49b-dab9-45ea-903a-909c04c5c079">
+<img width="554" alt="Screenshot 2023-06-22 at 3 19 12 PM" src="https://github.com/Rohith131102/kuber-docAssignment/assets/123619674/9e0408cd-44cc-4a87-847a-735fe81c9135">
+
 
 ### Approach
 
@@ -73,9 +74,10 @@
 
 #### DAG
 
-<img width="1434" alt="Screenshot 2023-06-22 at 12 14 14 PM" src="https://github.com/Rohith131102/kuber-docAssignment/assets/123619674/2c012a6d-a1a9-4960-b5a3-795a3f713c2a">
+<img width="1434" alt="Screenshot 2023-06-22 at 12 14 14 PM" src="https://github.com/Rohith131102/kuber-docAssignment/assets/123619674/a4c0f992-ea89-4fae-bec5-13930befaa56">
 
-<img width="314" alt="Screenshot 2023-06-22 at 12 14 04 PM" src="https://github.com/Rohith131102/kuber-docAssignment/assets/123619674/dca3ab3e-1736-41bf-9868-1e816bdbbb59">
+<img width="314" alt="Screenshot 2023-06-22 at 12 14 04 PM" src="https://github.com/Rohith131102/kuber-docAssignment/assets/123619674/12aac2ec-2acd-48c7-b0c4-c36d794891b4">
+
 
 ### Kubernetes Task
 
@@ -139,12 +141,14 @@ vim time_task.py
 
 airflow is accessible on below url Upon logging in, the dag was visible, then created a postgres connection and then ran my dag, it has been succesfully executed.
 
-<img width="709" alt="Screenshot 2023-06-22 at 2 31 03 PM" src="https://github.com/Rohith131102/kuber-docAssignment/assets/123619674/1710dc40-fd97-4674-9a62-8a271dddad21">
+<img width="709" alt="Screenshot 2023-06-22 at 2 31 03 PM" src="https://github.com/Rohith131102/kuber-docAssignment/assets/123619674/cac3544b-1063-4380-a660-9c8bc66fb5db">
 
 ### DAG
-<img width="1439" alt="Screenshot 2023-06-22 at 2 34 03 PM" src="https://github.com/Rohith131102/kuber-docAssignment/assets/123619674/8bcbaa11-7b51-4ffd-9c38-4891da2b33d7">
 
-<img width="318" alt="Screenshot 2023-06-22 at 2 35 27 PM" src="https://github.com/Rohith131102/kuber-docAssignment/assets/123619674/e5c8c605-4002-4cc0-960a-fbe59f8d8d34">
+<img width="1439" alt="Screenshot 2023-06-22 at 2 34 03 PM" src="https://github.com/Rohith131102/kuber-docAssignment/assets/123619674/b29f4631-f0cf-4db6-9ed5-6d12db91e360">
+
+
+<img width="318" alt="Screenshot 2023-06-22 at 2 35 27 PM" src="https://github.com/Rohith131102/kuber-docAssignment/assets/123619674/84d7b661-4d83-44ba-9b24-bbc2e3edee9d">
 
 
 
