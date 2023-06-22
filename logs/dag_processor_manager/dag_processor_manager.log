@@ -1,0 +1,1612 @@
+[2023-06-22T06:36:40.434+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-06-22T06:36:40.474+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-06-22T06:36:40.529+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-06-22T06:36:40.536+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-06-22T06:36:40.811+0000] {manager.py:761} INFO - There are 46 files in /opt/airflow/dags
+[2023-06-22T06:36:42.466+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py                                31  0.45s             0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator_decorator.py                           32  0.40s             0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_labels.py                                                             0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_setup_teardown.py                                                            0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                                          0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                                           0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py                                                                      0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py                                                                   0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py                                                             0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                                               0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py                                                                0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py                                                                   0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                                   0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                                           0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_datasets.py                                                                  0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                                      0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py                                                                  0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                                             0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                                  0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0
+================================================================================
+[2023-06-22T06:37:12.971+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_setup_teardown.py                                                            0           0  1.00s           2023-06-22T06:36:47
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                       55  0.91s             0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py                                 56  0.00s             0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py                                                             0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                                               0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py                                                                0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py                                                                   0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                                   0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                                           0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_datasets.py                                                                  0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                                      0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py                                                                  0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                                             0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                                  0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  3.99s           2023-06-22T06:36:45
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 1           0  4.21s           2023-06-22T06:36:46
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  3.09s           2023-06-22T06:36:48
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  3.10s           2023-06-22T06:36:50
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  2.41s           2023-06-22T06:36:51
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  1           0  6.97s           2023-06-22T06:36:57
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  4.42s           2023-06-22T06:36:55
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  9.45s           2023-06-22T06:37:05
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  7.67s           2023-06-22T06:37:04
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  4.23s           2023-06-22T06:37:09
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  3.69s           2023-06-22T06:37:09
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  1.75s           2023-06-22T06:37:10
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  1.60s           2023-06-22T06:37:10
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  1.08s           2023-06-22T06:37:11
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  1.07s           2023-06-22T06:37:12
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.94s           2023-06-22T06:37:12
+================================================================================
+[2023-06-22T06:37:31.512+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2023-06-22T06:38:16.930+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-06-22T06:38:16.937+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-06-22T06:38:16.940+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-06-22T06:38:16.942+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-06-22T06:38:16.962+0000] {manager.py:761} INFO - There are 46 files in /opt/airflow/dags
+[2023-06-22T06:38:17.099+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py                                31  0.06s             0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator_decorator.py                           32  0.05s             0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_labels.py                                                             0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_setup_teardown.py                                                            0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                                          0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                                           0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py                                                                      0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py                                                                   0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py                                                             0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                                               0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py                                                                0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py                                                                   0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                                   0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                                           0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_datasets.py                                                                  0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                                      0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py                                                                  0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                                             0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                                  0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0
+================================================================================
+[2023-06-22T06:38:47.145+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_setup_teardown.py                                                            0           0  0.09s           2023-06-22T06:38:17
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   0           0  0.06s           2023-06-22T06:38:25
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.08s           2023-06-22T06:38:26
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  1.34s           2023-06-22T06:38:27
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.08s           2023-06-22T06:38:26
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.07s           2023-06-22T06:38:26
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.53s           2023-06-22T06:38:17
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 1           0  0.50s           2023-06-22T06:38:17
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.35s           2023-06-22T06:38:17
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.37s           2023-06-22T06:38:18
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.32s           2023-06-22T06:38:18
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  1           0  0.38s           2023-06-22T06:38:18
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.57s           2023-06-22T06:38:18
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.38s           2023-06-22T06:38:18
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.60s           2023-06-22T06:38:19
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.53s           2023-06-22T06:38:19
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.43s           2023-06-22T06:38:19
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.45s           2023-06-22T06:38:19
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.41s           2023-06-22T06:38:20
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.59s           2023-06-22T06:38:20
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.46s           2023-06-22T06:38:20
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.38s           2023-06-22T06:38:20
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.49s           2023-06-22T06:38:21
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       1           0  1.97s           2023-06-22T06:38:22
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.53s           2023-06-22T06:38:21
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                                           1           0  0.45s           2023-06-22T06:38:22
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.59s           2023-06-22T06:38:22
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.40s           2023-06-22T06:38:23
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.35s           2023-06-22T06:38:23
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.32s           2023-06-22T06:38:23
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.26s           2023-06-22T06:38:23
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.21s           2023-06-22T06:38:23
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.25s           2023-06-22T06:38:23
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.25s           2023-06-22T06:38:23
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.25s           2023-06-22T06:38:24
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.25s           2023-06-22T06:38:24
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.24s           2023-06-22T06:38:25
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.25s           2023-06-22T06:38:25
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.62s           2023-06-22T06:38:25
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 1           0  0.78s           2023-06-22T06:38:26
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.59s           2023-06-22T06:38:26
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.29s           2023-06-22T06:38:24
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.68s           2023-06-22T06:38:25
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.41s           2023-06-22T06:38:24
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.27s           2023-06-22T06:38:24
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_datasets.py                                                                  6           0  0.52s           2023-06-22T06:38:25
+================================================================================
+[2023-06-22T06:39:17.241+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_setup_teardown.py                                                            0           0  0.04s           2023-06-22T06:38:48
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   0           0  0.04s           2023-06-22T06:38:55
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.07s           2023-06-22T06:38:56
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  0.77s           2023-06-22T06:38:58
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.05s           2023-06-22T06:38:57
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.05s           2023-06-22T06:38:57
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.14s           2023-06-22T06:38:48
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 1           0  0.11s           2023-06-22T06:38:48
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.09s           2023-06-22T06:38:48
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.08s           2023-06-22T06:38:48
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.08s           2023-06-22T06:38:48
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  1           0  0.07s           2023-06-22T06:38:48
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.11s           2023-06-22T06:38:49
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.10s           2023-06-22T06:38:49
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.13s           2023-06-22T06:38:49
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.10s           2023-06-22T06:38:49
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.11s           2023-06-22T06:38:50
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.10s           2023-06-22T06:38:50
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.07s           2023-06-22T06:38:50
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.08s           2023-06-22T06:38:50
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.08s           2023-06-22T06:38:51
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.08s           2023-06-22T06:38:51
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.10s           2023-06-22T06:38:52
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       1           0  0.33s           2023-06-22T06:38:53
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.13s           2023-06-22T06:38:52
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                                           1           0  0.07s           2023-06-22T06:38:52
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.23s           2023-06-22T06:38:53
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.10s           2023-06-22T06:38:53
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.08s           2023-06-22T06:38:53
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.08s           2023-06-22T06:38:53
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.08s           2023-06-22T06:38:53
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.14s           2023-06-22T06:38:54
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.12s           2023-06-22T06:38:54
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.07s           2023-06-22T06:38:54
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.08s           2023-06-22T06:38:54
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.08s           2023-06-22T06:38:55
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.18s           2023-06-22T06:38:56
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.15s           2023-06-22T06:38:56
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.11s           2023-06-22T06:38:56
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 1           0  0.31s           2023-06-22T06:38:57
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.10s           2023-06-22T06:38:56
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.09s           2023-06-22T06:38:55
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.11s           2023-06-22T06:38:56
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.09s           2023-06-22T06:38:54
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.09s           2023-06-22T06:38:55
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_datasets.py                                                                  6           0  0.11s           2023-06-22T06:38:55
+================================================================================
+[2023-06-22T06:39:47.434+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_setup_teardown.py                                                            0           0  0.04s           2023-06-22T06:39:19
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   0           0  0.04s           2023-06-22T06:39:26
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.05s           2023-06-22T06:39:27
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  0.48s           2023-06-22T06:39:30
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.05s           2023-06-22T06:39:27
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.05s           2023-06-22T06:39:27
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.14s           2023-06-22T06:39:19
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 1           0  0.13s           2023-06-22T06:39:19
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.09s           2023-06-22T06:39:19
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.08s           2023-06-22T06:39:19
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.08s           2023-06-22T06:39:19
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  1           0  0.07s           2023-06-22T06:39:19
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.12s           2023-06-22T06:39:20
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.11s           2023-06-22T06:39:20
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.12s           2023-06-22T06:39:20
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.09s           2023-06-22T06:39:20
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.21s           2023-06-22T06:39:21
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.17s           2023-06-22T06:39:21
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.13s           2023-06-22T06:39:21
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.13s           2023-06-22T06:39:21
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.08s           2023-06-22T06:39:22
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.08s           2023-06-22T06:39:22
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.12s           2023-06-22T06:39:23
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       1           0  0.29s           2023-06-22T06:39:24
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.15s           2023-06-22T06:39:23
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                                           1           0  0.08s           2023-06-22T06:39:23
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.18s           2023-06-22T06:39:24
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.09s           2023-06-22T06:39:24
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.07s           2023-06-22T06:39:24
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.08s           2023-06-22T06:39:24
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.07s           2023-06-22T06:39:24
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.12s           2023-06-22T06:39:25
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.11s           2023-06-22T06:39:25
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.08s           2023-06-22T06:39:25
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.08s           2023-06-22T06:39:25
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.08s           2023-06-22T06:39:25
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.18s           2023-06-22T06:39:27
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.18s           2023-06-22T06:39:27
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.15s           2023-06-22T06:39:27
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 1           0  0.30s           2023-06-22T06:39:27
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.13s           2023-06-22T06:39:27
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.08s           2023-06-22T06:39:26
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.15s           2023-06-22T06:39:27
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.09s           2023-06-22T06:39:25
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.09s           2023-06-22T06:39:26
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_datasets.py                                                                  6           0  0.11s           2023-06-22T06:39:26
+================================================================================
+[2023-06-22T06:40:17.465+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_setup_teardown.py                                                            0           0  0.05s           2023-06-22T06:39:49
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   0           0  0.04s           2023-06-22T06:39:56
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.06s           2023-06-22T06:39:58
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  0.49s           2023-06-22T06:40:01
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.08s           2023-06-22T06:39:58
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.04s           2023-06-22T06:39:58
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.21s           2023-06-22T06:39:49
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 1           0  0.18s           2023-06-22T06:39:49
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.11s           2023-06-22T06:39:49
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.12s           2023-06-22T06:39:49
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.12s           2023-06-22T06:39:49
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  1           0  0.10s           2023-06-22T06:39:50
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.14s           2023-06-22T06:39:51
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.13s           2023-06-22T06:39:51
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.15s           2023-06-22T06:39:51
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.09s           2023-06-22T06:39:51
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.11s           2023-06-22T06:39:52
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.10s           2023-06-22T06:39:52
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.08s           2023-06-22T06:39:52
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.11s           2023-06-22T06:39:52
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.11s           2023-06-22T06:39:52
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.08s           2023-06-22T06:39:52
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.11s           2023-06-22T06:39:53
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       1           0  0.40s           2023-06-22T06:39:55
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.14s           2023-06-22T06:39:53
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                                           1           0  0.09s           2023-06-22T06:39:53
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.25s           2023-06-22T06:39:55
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.11s           2023-06-22T06:39:55
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.10s           2023-06-22T06:39:55
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.10s           2023-06-22T06:39:55
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.07s           2023-06-22T06:39:55
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.16s           2023-06-22T06:39:56
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.14s           2023-06-22T06:39:56
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.08s           2023-06-22T06:39:56
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.09s           2023-06-22T06:39:56
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.10s           2023-06-22T06:39:56
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.16s           2023-06-22T06:39:58
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.16s           2023-06-22T06:39:58
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.13s           2023-06-22T06:39:58
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 1           0  0.59s           2023-06-22T06:39:58
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.38s           2023-06-22T06:39:58
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.09s           2023-06-22T06:39:56
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.14s           2023-06-22T06:39:58
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.11s           2023-06-22T06:39:56
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.12s           2023-06-22T06:39:56
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_datasets.py                                                                  6           0  0.13s           2023-06-22T06:39:56
+================================================================================
+[2023-06-22T06:40:40.995+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2023-06-22T06:41:15.258+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-06-22T06:41:15.260+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-06-22T06:41:15.262+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-06-22T06:41:15.263+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-06-22T06:41:15.273+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2023-06-22T06:41:15.419+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/create_postgres_table.py     30  0.05s             0           0
+================================================================================
+[2023-06-22T06:41:45.589+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.27s           2023-06-22T06:41:15
+================================================================================
+[2023-06-22T06:42:16.038+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py     51  0.00s             1           0  0.15s           2023-06-22T06:41:45
+================================================================================
+[2023-06-22T06:42:46.402+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.43s           2023-06-22T06:42:16
+================================================================================
+[2023-06-22T06:43:17.161+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.10s           2023-06-22T06:43:02
+================================================================================
+[2023-06-22T06:43:47.431+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.23s           2023-06-22T06:43:32
+================================================================================
+[2023-06-22T06:44:17.999+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.47s           2023-06-22T06:44:03
+================================================================================
+[2023-06-22T06:44:48.421+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.21s           2023-06-22T06:44:33
+================================================================================
+[2023-06-22T06:45:18.791+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.09s           2023-06-22T06:45:03
+================================================================================
+[2023-06-22T06:45:49.124+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.13s           2023-06-22T06:45:34
+================================================================================
+[2023-06-22T06:46:15.462+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-06-22T06:46:15.487+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2023-06-22T06:46:19.557+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.12s           2023-06-22T06:46:04
+================================================================================
+[2023-06-22T06:46:49.865+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.14s           2023-06-22T06:46:34
+================================================================================
+[2023-06-22T06:47:20.278+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.14s           2023-06-22T06:47:05
+================================================================================
+[2023-06-22T06:47:50.617+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.12s           2023-06-22T06:47:35
+================================================================================
+[2023-06-22T06:48:20.931+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.11s           2023-06-22T06:48:05
+================================================================================
+[2023-06-22T06:48:51.151+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.29s           2023-06-22T06:48:36
+================================================================================
+[2023-06-22T06:49:21.579+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.10s           2023-06-22T06:49:06
+================================================================================
+[2023-06-22T06:49:51.793+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.10s           2023-06-22T06:49:36
+================================================================================
+[2023-06-22T06:50:22.033+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.10s           2023-06-22T06:50:07
+================================================================================
+[2023-06-22T06:50:52.256+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.10s           2023-06-22T06:50:37
+================================================================================
+[2023-06-22T06:51:15.466+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-06-22T06:51:15.476+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2023-06-22T06:51:22.541+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.13s           2023-06-22T06:51:07
+================================================================================
+[2023-06-22T06:51:52.737+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.12s           2023-06-22T06:51:37
+================================================================================
+[2023-06-22T06:52:23.027+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.13s           2023-06-22T06:52:07
+================================================================================
+[2023-06-22T06:52:53.347+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.12s           2023-06-22T06:52:38
+================================================================================
+[2023-06-22T06:53:23.639+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.12s           2023-06-22T06:53:08
+================================================================================
+[2023-06-22T06:53:53.929+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.46s           2023-06-22T06:53:39
+================================================================================
+[2023-06-22T07:01:49.236+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-06-22T07:01:49.249+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2023-06-22T07:02:09.422+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.13s           2023-06-22T07:01:49
+================================================================================
+[2023-06-22T07:02:39.835+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.14s           2023-06-22T07:02:19
+================================================================================
+[2023-06-22T07:03:10.149+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.13s           2023-06-22T07:02:50
+================================================================================
+[2023-06-22T07:03:40.511+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.16s           2023-06-22T07:03:20
+================================================================================
+[2023-06-22T07:04:10.812+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.12s           2023-06-22T07:03:50
+================================================================================
+[2023-06-22T07:04:41.083+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.11s           2023-06-22T07:04:21
+================================================================================
+[2023-06-22T07:05:11.396+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.12s           2023-06-22T07:04:51
+================================================================================
+[2023-06-22T07:05:41.726+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.11s           2023-06-22T07:05:21
+================================================================================
+[2023-06-22T07:06:12.080+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.12s           2023-06-22T07:05:51
+================================================================================
+[2023-06-22T07:06:42.412+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.14s           2023-06-22T07:06:22
+================================================================================
+[2023-06-22T07:57:42.541+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-06-22T07:57:42.548+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2023-06-22T07:58:05.724+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.10s           2023-06-22T07:57:42
+================================================================================
+[2023-06-22T08:26:01.090+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-06-22T08:26:01.101+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2023-06-22T08:26:24.306+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.33s           2023-06-22T08:26:01
+================================================================================
+[2023-06-22T08:26:54.948+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.15s           2023-06-22T08:26:31
+================================================================================
+[2023-06-22T08:27:25.268+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.14s           2023-06-22T08:27:02
+================================================================================
+[2023-06-22T08:27:55.600+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.16s           2023-06-22T08:27:32
+================================================================================
+[2023-06-22T08:28:25.839+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.12s           2023-06-22T08:28:02
+================================================================================
+[2023-06-22T08:28:56.041+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.16s           2023-06-22T08:28:33
+================================================================================
+[2023-06-22T08:29:26.209+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.14s           2023-06-22T08:29:03
+================================================================================
+[2023-06-22T08:29:56.445+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.14s           2023-06-22T08:29:33
+================================================================================
+[2023-06-22T08:30:26.567+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.09s           2023-06-22T08:30:03
+================================================================================
+[2023-06-22T08:30:56.727+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.12s           2023-06-22T08:30:33
+================================================================================
+[2023-06-22T08:31:01.751+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-06-22T08:31:01.772+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2023-06-22T08:31:26.919+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.14s           2023-06-22T08:31:03
+================================================================================
+[2023-06-22T08:31:57.166+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.19s           2023-06-22T08:31:34
+================================================================================
+[2023-06-22T08:32:27.439+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.11s           2023-06-22T08:32:04
+================================================================================
+[2023-06-22T08:32:57.659+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.15s           2023-06-22T08:32:34
+================================================================================
+[2023-06-22T08:33:27.836+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.09s           2023-06-22T08:33:04
+================================================================================
+[2023-06-22T08:33:58.083+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.14s           2023-06-22T08:33:35
+================================================================================
+[2023-06-22T08:34:28.354+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.09s           2023-06-22T08:34:05
+================================================================================
+[2023-06-22T08:34:58.585+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.14s           2023-06-22T08:34:35
+================================================================================
+[2023-06-22T08:35:28.814+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.09s           2023-06-22T08:35:05
+================================================================================
+[2023-06-22T08:35:58.995+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.12s           2023-06-22T08:35:35
+================================================================================
+[2023-06-22T08:36:02.031+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-06-22T08:36:02.040+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2023-06-22T08:36:29.239+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.10s           2023-06-22T08:36:06
+================================================================================
+[2023-06-22T08:36:59.382+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.12s           2023-06-22T08:36:36
+================================================================================
+[2023-06-22T08:37:29.676+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.11s           2023-06-22T08:37:06
+================================================================================
+[2023-06-22T08:37:59.844+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.11s           2023-06-22T08:37:36
+================================================================================
+[2023-06-22T08:38:30.059+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.09s           2023-06-22T08:38:06
+================================================================================
+[2023-06-22T08:39:00.245+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.11s           2023-06-22T08:38:37
+================================================================================
+[2023-06-22T08:39:30.487+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.15s           2023-06-22T08:39:07
+================================================================================
+[2023-06-22T08:40:00.814+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.15s           2023-06-22T08:39:37
+================================================================================
+[2023-06-22T08:40:31.038+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.13s           2023-06-22T08:40:07
+================================================================================
+[2023-06-22T08:41:01.371+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.15s           2023-06-22T08:40:38
+================================================================================
+[2023-06-22T08:41:02.384+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-06-22T08:41:02.402+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2023-06-22T08:41:31.587+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.18s           2023-06-22T08:41:08
+================================================================================
+[2023-06-22T08:42:01.897+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.17s           2023-06-22T08:41:38
+================================================================================
+[2023-06-22T08:42:32.032+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.09s           2023-06-22T08:42:09
+================================================================================
+[2023-06-22T08:43:02.232+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.14s           2023-06-22T08:42:39
+================================================================================
+[2023-06-22T08:43:32.523+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.11s           2023-06-22T08:43:09
+================================================================================
+[2023-06-22T08:44:02.685+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.14s           2023-06-22T08:43:39
+================================================================================
+[2023-06-22T08:44:32.893+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.14s           2023-06-22T08:44:09
+================================================================================
+[2023-06-22T08:45:03.046+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.12s           2023-06-22T08:44:40
+================================================================================
+[2023-06-22T08:45:33.351+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.10s           2023-06-22T08:45:10
+================================================================================
+[2023-06-22T08:46:02.625+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-06-22T08:46:02.643+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2023-06-22T08:46:03.672+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.16s           2023-06-22T08:45:40
+================================================================================
+[2023-06-22T08:46:33.980+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.11s           2023-06-22T08:46:10
+================================================================================
+[2023-06-22T08:47:04.261+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.16s           2023-06-22T08:46:41
+================================================================================
+[2023-06-22T08:47:34.598+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.12s           2023-06-22T08:47:11
+================================================================================
+[2023-06-22T08:48:04.885+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.14s           2023-06-22T08:47:41
+================================================================================
+[2023-06-22T08:48:35.185+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.12s           2023-06-22T08:48:12
+================================================================================
+[2023-06-22T08:49:05.487+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.13s           2023-06-22T08:48:42
+================================================================================
+[2023-06-22T08:49:35.764+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.08s           2023-06-22T08:49:12
+================================================================================
+[2023-06-22T08:50:06.046+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.14s           2023-06-22T08:49:42
+================================================================================
+[2023-06-22T08:50:36.282+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.10s           2023-06-22T08:50:13
+================================================================================
+[2023-06-22T08:51:03.550+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-06-22T08:51:03.558+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2023-06-22T08:51:06.641+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.14s           2023-06-22T08:50:43
+================================================================================
+[2023-06-22T08:51:36.893+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.14s           2023-06-22T08:51:13
+================================================================================
+[2023-06-22T08:52:07.156+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.13s           2023-06-22T08:51:44
+================================================================================
+[2023-06-22T08:52:37.319+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.11s           2023-06-22T08:52:14
+================================================================================
+[2023-06-22T08:53:07.658+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.13s           2023-06-22T08:52:44
+================================================================================
+[2023-06-22T08:53:37.922+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.11s           2023-06-22T08:53:14
+================================================================================
+[2023-06-22T08:54:08.214+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.12s           2023-06-22T08:53:45
+================================================================================
+[2023-06-22T08:54:38.477+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.12s           2023-06-22T08:54:15
+================================================================================
+[2023-06-22T08:55:08.780+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.11s           2023-06-22T08:54:45
+================================================================================
+[2023-06-22T08:55:39.091+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.11s           2023-06-22T08:55:15
+================================================================================
+[2023-06-22T08:56:04.334+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-06-22T08:56:04.356+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2023-06-22T08:56:09.432+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.13s           2023-06-22T08:55:46
+================================================================================
+[2023-06-22T08:56:39.648+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.14s           2023-06-22T08:56:16
+================================================================================
+[2023-06-22T08:57:09.853+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.11s           2023-06-22T08:56:46
+================================================================================
+[2023-06-22T08:57:40.106+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.17s           2023-06-22T08:57:17
+================================================================================
+[2023-06-22T08:58:10.443+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.14s           2023-06-22T08:57:47
+================================================================================
+[2023-06-22T08:58:40.684+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.12s           2023-06-22T08:58:17
+================================================================================
+[2023-06-22T08:59:11.035+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.14s           2023-06-22T08:58:47
+================================================================================
+[2023-06-22T08:59:41.374+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.12s           2023-06-22T08:59:18
+================================================================================
+[2023-06-22T09:00:11.614+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.14s           2023-06-22T08:59:48
+================================================================================
+[2023-06-22T09:00:41.930+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.14s           2023-06-22T09:00:18
+================================================================================
+[2023-06-22T09:01:05.133+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-06-22T09:01:05.148+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2023-06-22T09:01:12.212+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.11s           2023-06-22T09:00:49
+================================================================================
+[2023-06-22T09:01:42.456+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.13s           2023-06-22T09:01:19
+================================================================================
+[2023-06-22T09:02:12.699+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.13s           2023-06-22T09:01:49
+================================================================================
+[2023-06-22T09:02:43.056+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.14s           2023-06-22T09:02:19
+================================================================================
+[2023-06-22T09:03:13.300+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.15s           2023-06-22T09:02:50
+================================================================================
+[2023-06-22T09:03:43.657+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.15s           2023-06-22T09:03:20
+================================================================================
+[2023-06-22T09:04:13.935+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.17s           2023-06-22T09:03:50
+================================================================================
+[2023-06-22T09:04:44.232+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.12s           2023-06-22T09:04:21
+================================================================================
+[2023-06-22T09:05:14.529+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.13s           2023-06-22T09:04:51
+================================================================================
+[2023-06-22T09:05:44.853+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.12s           2023-06-22T09:05:21
+================================================================================
+[2023-06-22T09:06:05.140+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-06-22T09:06:05.159+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2023-06-22T09:06:15.106+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.14s           2023-06-22T09:05:52
+================================================================================
+[2023-06-22T09:06:45.476+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.12s           2023-06-22T09:06:22
+================================================================================
+[2023-06-22T09:07:15.789+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.16s           2023-06-22T09:06:52
+================================================================================
+[2023-06-22T09:07:46.071+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.14s           2023-06-22T09:07:22
+================================================================================
+[2023-06-22T09:08:16.326+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.12s           2023-06-22T09:07:53
+================================================================================
+[2023-06-22T09:08:46.660+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.09s           2023-06-22T09:08:23
+================================================================================
+[2023-06-22T09:09:16.926+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.13s           2023-06-22T09:08:53
+================================================================================
+[2023-06-22T09:09:47.261+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.12s           2023-06-22T09:09:24
+================================================================================
+[2023-06-22T09:10:17.533+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.16s           2023-06-22T09:09:54
+================================================================================
+[2023-06-22T09:10:47.856+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.14s           2023-06-22T09:10:24
+================================================================================
+[2023-06-22T09:11:06.072+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-06-22T09:11:06.093+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2023-06-22T09:11:18.195+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.12s           2023-06-22T09:10:55
+================================================================================
+[2023-06-22T09:11:48.475+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.14s           2023-06-22T09:11:25
+================================================================================
+[2023-06-22T09:12:18.779+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.14s           2023-06-22T09:11:55
+================================================================================
+[2023-06-22T09:12:49.112+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.21s           2023-06-22T09:12:26
+================================================================================
+[2023-06-22T09:13:19.407+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.13s           2023-06-22T09:12:56
+================================================================================
+[2023-06-22T09:13:49.663+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.20s           2023-06-22T09:13:26
+================================================================================
+[2023-06-22T09:14:19.960+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.15s           2023-06-22T09:13:56
+================================================================================
+[2023-06-22T09:14:50.245+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.15s           2023-06-22T09:14:27
+================================================================================
+[2023-06-22T09:15:20.501+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.13s           2023-06-22T09:14:57
+================================================================================
+[2023-06-22T09:15:50.779+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.16s           2023-06-22T09:15:27
+================================================================================
+[2023-06-22T09:16:07.000+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-06-22T09:16:07.019+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2023-06-22T09:16:21.118+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.12s           2023-06-22T09:15:57
+================================================================================
+[2023-06-22T09:16:51.475+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.20s           2023-06-22T09:16:28
+================================================================================
+[2023-06-22T09:17:21.757+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.15s           2023-06-22T09:16:58
+================================================================================
+[2023-06-22T09:17:52.011+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.16s           2023-06-22T09:17:29
+================================================================================
+[2023-06-22T09:18:22.277+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.12s           2023-06-22T09:17:59
+================================================================================
+[2023-06-22T09:18:52.523+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.13s           2023-06-22T09:18:29
+================================================================================
+[2023-06-22T09:19:22.776+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.11s           2023-06-22T09:18:59
+================================================================================
+[2023-06-22T09:19:53.064+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.14s           2023-06-22T09:19:30
+================================================================================
+[2023-06-22T09:20:23.328+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.13s           2023-06-22T09:20:00
+================================================================================
+[2023-06-22T09:20:53.704+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.19s           2023-06-22T09:20:30
+================================================================================
+[2023-06-22T09:21:07.904+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-06-22T09:21:07.922+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2023-06-22T09:21:24.086+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.15s           2023-06-22T09:21:00
+================================================================================
+[2023-06-22T09:21:54.403+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.13s           2023-06-22T09:21:31
+================================================================================
+[2023-06-22T09:22:24.679+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_postgres_table.py                           1           0  0.15s           2023-06-22T09:22:01
+================================================================================

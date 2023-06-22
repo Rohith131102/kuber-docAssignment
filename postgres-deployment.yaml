@@ -1,0 +1,27 @@
+
+apiVersion: apps/v1 
+kind: Deployment 
+metadata: 
+  name: postgres 
+spec: 
+  replicas: 1 
+  selector: 
+    matchLabels: 
+      deploy: postgres 
+  template: 
+    metadata: 
+      labels: 
+        deploy: postgres 
+    spec: 
+      containers: 
+        - name: postgres 
+          image: postgres:latest 
+          ports: 
+            - containerPort: 5432 
+          env: 
+            - name: POSTGRES_DB
+              value: airflow
+            - name: POSTGRES_USER
+              value: airflow
+            - name: POSTGRES_PASSWORD
+              value: airflow      
