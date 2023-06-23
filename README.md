@@ -10,7 +10,7 @@
 - The dags folder contains .py files for the dags created in correspondence to question-1.
 - The .yaml files contains details of configuration required required for other tasks.
 
-### Docker Task
+## Docker Task
 
 1. Import the necessary modules and classes:
 
@@ -79,7 +79,7 @@
 <img width="314" alt="Screenshot 2023-06-22 at 12 14 04 PM" src="https://github.com/Rohith131102/kuber-docAssignment/assets/123619674/12aac2ec-2acd-48c7-b0c4-c36d794891b4">
 
 
-### Kubernetes Task
+## Kubernetes Task
 
 Installed minikube to make a kubernetes cluster using the following commands.
 
@@ -87,8 +87,6 @@ Installed minikube to make a kubernetes cluster using the following commands.
 brew install minikube
 minikube start
 ```
-Using the postgres-deployment.yaml file the pod containing postgres container was created.
-To connect postgres and airflow install the dependencies in postgres container. We need to run below commands to open postgres container terminal.
 
 ```
 kubectl apply -f postgres-deployment.yaml
@@ -152,4 +150,67 @@ airflow is accessible on below url Upon logging in, the dag was visible, then cr
 
 
 
+### Postgres-deployment.yaml
+
+- This .yaml file represents a Kubernetes Deployment resource definition for a PostgreSQL database container. It creates a deployment named "postgres" with a single replica.
+
+- A Deployment in Kubernetes is responsible for managing the lifecycle of a set of pods. In this case, the Deployment ensures that one replica of the PostgreSQL container is running and maintained within the cluster.
+
+- The PostgreSQL container is defined with the image "postgres:latest", which refers to the latest version of the official PostgreSQL Docker image. The container exposes port 5432 for communication.
+
+- The environment variables `POSTGRES_DB`, `POSTGRES_USER`, and `POSTGRES_PASSWORD` are set within the container to configure the database. The values for these variables are set to "airflow" in this example.
+
+- The `POSTGRES_PASSWORD` value is obtained from a secret named "postgres-creds". This secret is created separately, and the key named "password" is referenced in the `secretKeyRef` field.
+  
+Using the postgres-deployment.yaml file the pod containing postgres container was created.
+To connect postgres and airflow install the dependencies in postgres container. We need to run below commands to open postgres container terminal.
+
+
+
+### Postgres-service.yaml
+
+This .yaml defines a Kubernetes Service named "postgres" that exposes a port for communication with a PostgreSQL database deployment.
+
+A Service in Kubernetes acts as an abstraction layer that enables other pods or services to communicate with it, regardless of their location within the cluster. The Service YAML includes the following specifications:
+
+- `apiVersion: v1`: Specifies the Kubernetes API version used for this resource.
+- `kind: Service`: Indicates that this resource is a Service.
+- `metadata: name: postgres`: Specifies the name of the Service as "postgres".
+- `spec:`: Defines the Service's specifications.
+  - `ports:`: Specifies the ports exposed by the Service.
+    - `- port: 5432`: Exposes port 5432 for the Service, which is the default port for PostgreSQL database connections.
+  - `selector:`: Determines the set of pods targeted by the Service.
+    - `deploy: postgres`: Selects pods with the label "deploy" set to "postgres". This label is used to identify the pods associated with the PostgreSQL deployment.
+
+### Airflow-deployment.yaml
+
+This .yaml defines a Kubernetes Deployment for Apache Airflow, version 2.5.0. It creates a single replica of the deployment and includes two containers: one for the Airflow Scheduler and another for the Airflow Webserver. The Scheduler container runs the Airflow scheduler, while the Webserver container runs the Airflow webserver. Both containers are configured to connect to a PostgreSQL database using environment variables. The Webserver container exposes port 8080 for communication.
+
+### Airflow-service.yaml
+
+This .yaml defines a Kubernetes Service called "airflow", as below
+
+- `spec:`: Defines the Service's specifications.
+  - `type: LoadBalancer`: Specifies that a cloud provider load balancer should be created to expose the Service externally. This allows external access to the Airflow application.
+  - `ports:`: Specifies the ports configuration for the Service.
+    - `port: 8080`: Sets the port number as 8080 for the Service. This is the port that will be exposed by the Service.
+      - `protocol: TCP`: Specifies that the traffic protocol for this port is TCP.
+      - `targetPort: 8080`: Sets the target port as 8080. This indicates that traffic arriving at the Service's port 8080 will be forwarded to the pods associated with the Service, specifically to port 8080 on those pods.
+  - `selector:`: Determines the set of pods targeted by the Service.
+    - `deploy: airflow`: Selects pods with the label "deploy" set to "airflow". This label is used to identify the pods associated with the Airflow Deployment.
+   
+### Secrets management using secrets.yaml
+In the context of Kubernetes, a secrets.yaml file is a YAML file used to define and manage sensitive information, such as passwords, API keys, or certificates, within a Kubernetes cluster.
+
+The things need to be secured like password are stored in secrets.yaml file by encoding using base64 and these values are further referenced from required value space and mapped them with the orginal values, so as to preseve them, the secrets.yaml is applied by below command.
+
+```
+kubectl apply -f secrets.yaml
+```
+
+### DAG after adding secrets
+
+<img width="1436" alt="Screenshot 2023-06-23 at 5 43 06 PM" src="https://github.com/Rohith131102/kuber-docAssignment/assets/123619674/fa80a98c-4e2e-455b-bd54-40acd244ffc9">
+
+<img width="364" alt="Screenshot 2023-06-23 at 6 11 22 PM" src="https://github.com/Rohith131102/kuber-docAssignment/assets/123619674/a326e340-b92a-43d1-81a6-2ec3c4993a82">
 
