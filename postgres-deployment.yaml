@@ -24,4 +24,7 @@ spec:
             - name: POSTGRES_USER
               value: airflow
             - name: POSTGRES_PASSWORD
-              value: airflow      
+              valueFrom: 
+                secretKeyRef: 
+                  key: password
+                  name: postgres-creds 
